@@ -17,8 +17,8 @@ export const getProjectByKey = (key) => {
   return api.get(`/portfolio/project?key=${key}`);
 };
 
-export const createUser = (data) => {
-  return api.post("/users", data);
+export const sendMail = (data) => {
+  return api.post("/portfolio/send_mail", data);
 };
 
 export default api;

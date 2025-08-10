@@ -7,6 +7,7 @@ import BlogDetails from './pages/BlogDetails';
 import Contact from './pages/Contact';
 import '../public/assets/css/plugins.css';
 import '../public/assets/css/style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import { getProjects } from "../repositories/api_repository";
